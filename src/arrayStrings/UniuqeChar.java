@@ -1,6 +1,4 @@
-package arrayStrings;
 
-import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Scanner;
 
@@ -35,11 +33,8 @@ public class UniuqeChar {
 
     public static void main (String[] args){
 
-    String inStr="";
-    Scanner sc = new Scanner(System.in);
-
-    inStr= sc.nextLine();
-    System.out.print(inStr + (isUnique(inStr)==true?" ":" doesn't ") + "have all unique characters" );
+    String inStr=args[0];
+    System.out.print(inStr + (isUnique(args[0])==true?" ":" doesn't ") + "have all unique characters" );
 
     }
 

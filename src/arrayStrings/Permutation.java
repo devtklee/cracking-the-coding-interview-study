@@ -1,13 +1,13 @@
-package arrayStrings;
 
-import java.util.ArrayList;
+
+
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class Permutation {
     /*
     *  Check Permutation : Given two strings, write a method to decide if one is a permutation of the other.
-    * */
+    */
 
     public static boolean checkPermutation (String[] words){
 
@@ -44,6 +44,8 @@ public class Permutation {
 
         //Check permutation
         System.out.println(checkPermutation(words));
+
+        sc.close();
 
     }
 
